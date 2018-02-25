@@ -28,7 +28,8 @@ body {
   }
 
 h1{
-  font-size: 50px;
+  font-size: 30px;
+  line-height: 20px;
 }
 
 html{
@@ -78,13 +79,13 @@ html{
 }
 
 .container{
-    width:600px;
-    height:600px;
-    top:100px;
-    left:350px;
+    width:100%;
+    height:100%;
+    top: 40px;
+    left:40px;
     z-index:-1;
     overflow:hidden;
-    position:absolute;
+    position:fixed;
     background-image: url("pinkflowers.png");
     background-repeat: repeat;
     background-size: contain;
@@ -96,45 +97,34 @@ canvas {
  margin: 0;
 }
 
-
-#footer {
-  font: bold 40px/34px "Helvetica", "Arial", sans-serif;
-  letter-spacing: -2px;
-  margin: 0 0 0 0;
-  padding: 6px 6px 8px;
-}
-
-
 #titlesdiv{
-    left: 800px;
-    top:50px;
+    left: 40px;
+    top:210px;
     position: absolute;
     color: white;
     z-index:1;
 }
 
 #textdiv{
-    font-size: 15px;
+    font-size: 12px;
     text-align: justify;
-    left: 800px;
-    top:210px;
+    left: 40px;
+    top:130px;
     color: white;
     position: absolute;
-    min-width: 400px;
-    max-width: 500px;
+    width: 80%;
     padding-right: 50px;
     z-index:1;
 }
 
 
 #headingdiv{
-    left: 20px;
-    top:95px;
-    width:650px;
-    font-size: 70px;
+    left: 40px;
+    top:50px;
+    width:200px;
+    font-size: 40px;
     line-height: 0.8;
     color: white;
-    text-align: right;
     position: absolute;
     z-index:1;
 }
