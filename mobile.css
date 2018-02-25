@@ -1,5 +1,5 @@
 body {
-  font-family: "Arial Black", sans-serif;
+  font-family: "ArialRoundedMTBold", sans-serif;
   font-size: 14px;
   color: #000000;
   height:100%;
@@ -55,7 +55,7 @@ html{
 }
 
 #title {
-  font-family: "Arial Black", sans-serif;
+  font-family: "ArialRoundedMTBold", sans-serif;
   letter-spacing: -2px;
   margin: 0 0 10px 0;
   padding: 6px 6px 8px;
