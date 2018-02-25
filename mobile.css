@@ -9,7 +9,7 @@ body {
   -webkit-animation: colorchange 30s infinite; /* Chrome and Safari */
 }
 
-@-webkit-keyframes colorchange
+@keyframes colorchange
     {
       0%   {background: pink;}
       25%  {background: violet;}
@@ -20,16 +20,20 @@ body {
 
 @-webkit-keyframes colorchange
     {
-      0%   {background: pink;}
+      0%   {background: #F87CA0;}
       25%  {background: violet;}
-      50%  {background: #F55E57;}
-      75%  {background: #F87CA0;}
-      100% {background: pink;}
+      50%  {background: pink;}
+      75%  {background: #F55E57;}
+      100% {background: #F87CA0;}
   }
 
 h1{
   font-size: 30px;
   line-height: 20px;
+}
+
+h2{
+  text-align:left;
 }
 
 html{
@@ -70,6 +74,20 @@ html{
 }
 
 .titlelink:hover {
+ color: yellow;
+ text-decoration: none;
+}
+
+.container {
+    -webkit-transform: translateZ(0);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
  color: yellow;
  text-decoration: none;
 }
